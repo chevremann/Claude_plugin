@@ -1,0 +1,27 @@
+{
+  "name": "flightcompensations",
+  "owner": {
+    "name": "The Upgrade Concierge LLC",
+    "email": "support@flightcompensations.com",
+    "url": "https://flightcompensations.com"
+  },
+  "description": "FlightCompensations.com plugins for Claude.",
+  "plugins": [
+    {
+      "name": "flight-compensations",
+      "displayName": "FlightCompensations.com",
+      "source": "./plugins/flight-compensations",
+      "description": "Look up a delayed, cancelled or overbooked flight and check whether it is owed compensation (EU261, UK261, Israel, Canada) and how much.",
+      "version": "1.2.0",
+      "category": "travel",
+      "tags": [
+        "flight compensation",
+        "EU261",
+        "UK261",
+        "flight delay",
+        "flight cancellation",
+        "air passenger rights"
+      ]
+    }
+  ]
+}
